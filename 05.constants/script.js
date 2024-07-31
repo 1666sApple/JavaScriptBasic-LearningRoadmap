@@ -1,5 +1,5 @@
 // Define a constant for the value of pi, as it does not change
-const pi = 3.14159; // Using const because the value of pi is a fixed constant in mathematics
+const pi = Math.PI; // Using const because the value of pi is a fixed constant in mathematics
 
 let radius; // Variable to hold the radius of the circle
 let circumference; // Variable to hold the calculated circumference
