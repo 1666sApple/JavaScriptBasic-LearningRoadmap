@@ -7,6 +7,26 @@
         <title>Temperature App</title>
     </head>
     <body>
+        <h2 id="header">This is a app for temperature conversion</h2>
+        <label>Enter Temperature:</label>
+        <input type="number" id="temperatureValue" placeholder="temperature" />
+        <div>
+            <label>
+                <input type="radio" name="tempType" value="Celsius" checked /> Celsius
+            </label>
+                <input type="radio" name="tempType" value="Fahrenheit" checked /> Fahrenheit
+            </label>
+                <input type="radio" name="tempType" value="Kelvin" checked /> Kelvin
+            </label>
+        </div>
+        <div>
+            <button id="convertBtn">
+                Convert
+            </button>
+        </div>
+
+        <h3 id="result"></h3>
+        
         <script src="script.js"></script>
     </body>
 </html>
